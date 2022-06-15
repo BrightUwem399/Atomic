@@ -1,0 +1,38 @@
+.sidebar{
+    width: 14rem;
+}
+.sidebar-list{
+    margin-left: auto;
+    gap: 1.4rem;
+}
+.navbar-brand{
+    font-size: 1.4rem;
+}
+.btn-close{
+    display: none;
+}
+li a{
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+    border: none;
+}
+.btn-close:focus, .btn-close:active:focus, .btn-close.active:focus{
+    outline:none;
+    box-shadow:none;
+}
+
+@media (max-width: 989px) { 
+.btn-close{
+    display: flex;
+    margin-top: 7px;
+}
+.sidebar-list{
+    margin: 0;
+    margin-left: 2rem;
+    margin-top: 0.4rem;
+}
+}

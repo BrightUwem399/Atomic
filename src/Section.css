@@ -1,0 +1,24 @@
+.btn1{
+    background-color: #007bff;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.7rem;
+}
+h3{
+    font-size: 2.4rem;
+    letter-spacing: 0.1rem;
+}
+p{
+    font-size: 0.9rem;
+    color: gray;
+}
+
+
+@media (max-width: 989px){
+    h3{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 0.7rem;
+    }
+}
